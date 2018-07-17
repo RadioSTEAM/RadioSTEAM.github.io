@@ -1,0 +1,215 @@
+body{
+position: relative;
+font-size: 100%;
+color: #062b44;
+background-image: url(images/crumpled-rice-paper.jpg);
+background-position: top;
+background-repeat: repeat;
+margin: 0 auto;
+}
+
+h4{
+font-weight:bold;
+font-size:1.4em;
+}
+
+hr{
+color:#80461B;
+background-color:#80461B;
+height:1px;
+}
+
+a img, :link img, :visited img, a:link img, a:visited img {
+border: none;
+}
+
+img.floatLeft { 
+    float: left; 
+    margin: 4px;
+}
+
+img.floatRight { 
+    float: right; 
+    margin: 4px;
+}
+
+
+
+li.floatLeft { 
+    float: left; 
+}
+
+li.floatRight { 
+    float: right; 
+}
+
+.aStyle{
+border: none;
+color: #000000;
+font-size:.9em;
+background-color: transparent;
+font-weight: bold;
+text-decoration: none;
+outline: none;
+}
+
+a, a:link, a:visited {
+color: #062b44;
+background-color: transparent;
+font-weight: bold;
+text-decoration: underline;
+}
+
+a:hover, a:active {
+color:#062b44;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:focus, a:hover, a:active {
+outline: none;
+cursor: pointer;
+}
+   
+
+#header{
+margin: 0 auto;
+padding: 0;
+width: 962px;
+background-color: transparent;
+color: transparent;
+}
+
+
+
+#bar{
+width: 962px;
+color: #fff;
+background-image: url('images/bar.jpg');
+background-position: top;
+background-repeat: repeat-x;
+}
+
+#wrapper {
+clear: both;
+margin: 0 auto;
+padding: 0;
+width: 962px;
+min-height: 450px;
+color: #062b44;
+background-color: #80461B;
+}
+
+#left{
+color: #062b44;
+float:left;
+width:200px;
+background-color:#80461B;
+border-left: 1px solid #50404D;
+}
+
+#left a img, :link img, :visited img, a:link img, a:visited img {
+border: none;
+}
+
+#left a, a:link, a:visited {
+color: #000000;
+font-size:.9em;
+background-color: transparent;
+font-weight: bold;
+text-decoration: none;
+}
+
+#left a:hover, a:active {
+color:#000000;
+background-color: transparent;
+text-decoration: none;
+}
+
+#left a:focus, a:hover, a:active {
+outline: none;
+cursor: pointer;
+}
+
+
+#center{
+min-height:550px;
+float:left;
+background-color:#CDAF73;
+width:600px;
+}
+
+#right{
+color: #fff;
+float:right;
+width:160px;
+background-color:#80461B;
+border-right: 1px solid #50404D;
+}
+
+#footer {
+clear: both;
+position: relative;
+height: 30px;
+border-top-color: #a98e5b;
+border-top-style: solid;
+border-top-width: 1px;
+color: #50404D;
+background-image: url('images/foot.jpg');
+background-position: top;
+background-repeat: repeat-x;
+border: none;
+width: 962px;
+}
+
+#footer #copyright {
+position: absolute;
+margin-top: 40px;
+margin-left: 750px;
+font-weight:bold;
+font-size: .8em;
+line-height: 11px;
+}
+
+ul.no-bullet-list {
+margin: 0 1em 0 0;
+/* padding-bottom: 14px; */
+padding-left: 20px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #262D3C;
+background-color: transparent;
+list-style-type: none;
+font-size: 1em;
+text-align: left;
+}
+
+.center{
+margin-left:auto;
+margin-right:auto;
+}
+
+ul.no-bullet-list li {
+padding-bottom: 1em;
+line-height: 1.75em;
+font-size: 0.8em;
+}
+
+ul.no-bullet-list li ul li{
+margin-left: 25px;
+padding: 0 0 10px 0;
+line-height: 1.2em;
+font-size:1em;
+}
+
+ul.no-bullet-list a, ul.no-bullet-list a:link, ul.no-bullet-list a:visited {
+color:#062b44;
+font-weight: normal;
+text-decoration: none;
+}
+
+ul.no-bullet-list a:hover, ul.no-bullet-list a:active {
+color:#062b44;
+font-weight: normal;
+text-decoration: none;
+}
+
